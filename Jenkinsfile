@@ -72,9 +72,6 @@ pipeline {
         }
 
         stage('Upload Artifact to Nexus') {
-            when {
-                expression { return env.BRANCH_NAME == 'main' }
-            }
             steps {
                 nexusArtifactUploader(
                     nexusVersion: 'nexus3',
