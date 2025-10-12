@@ -14,7 +14,7 @@ pipeline {
 		NEXUSIP = '172.31.9.53'
 		NEXUSPORT = '8081'
 		NEXUS_GRP_REPO = 'vpro-maven-group'
-        NEXUS_LOGIN = 'nexuslogin'
+        NEXUS_LOGIN = 'nexuslogin3'
     }
 
     stages {
